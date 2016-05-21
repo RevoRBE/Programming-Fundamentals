@@ -63,10 +63,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Fibonacci Numbers 2", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Fibonacci Numbers 3", "22 Fibonacci Numbers 3\22 Fibonacci Numbers 3.csproj", "{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Boolean Variable 2", "05 Boolean Variable 2\05 Boolean Variable 2.csproj", "{BF2E1965-C198-4F02-9293-BB6253E00947}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Different Integers Size v.2", "17 Different Integers Size v.2\17 Different Integers Size v.2.csproj", "{C827FEF3-4C02-4125-A420-E6D9BF003F56}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,14 +189,6 @@ Global
 		{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF2E1965-C198-4F02-9293-BB6253E00947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF2E1965-C198-4F02-9293-BB6253E00947}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF2E1965-C198-4F02-9293-BB6253E00947}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF2E1965-C198-4F02-9293-BB6253E00947}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C827FEF3-4C02-4125-A420-E6D9BF003F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C827FEF3-4C02-4125-A420-E6D9BF003F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C827FEF3-4C02-4125-A420-E6D9BF003F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C827FEF3-4C02-4125-A420-E6D9BF003F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
