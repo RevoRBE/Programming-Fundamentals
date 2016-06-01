@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Bomb Numbers", "12 Bomb 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Largest Increasing Subsequence", "09 Largest Increasing Subsequence\09 Largest Increasing Subsequence.csproj", "{ED0F416F-1C47-4E59-ADFC-ABA65198F067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Matrix Generator 2", "07 Matrix Generator 2\07 Matrix Generator 2.csproj", "{0FBB070B-EFC0-4D2B-9470-78AB4A8203C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{ED0F416F-1C47-4E59-ADFC-ABA65198F067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED0F416F-1C47-4E59-ADFC-ABA65198F067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED0F416F-1C47-4E59-ADFC-ABA65198F067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBB070B-EFC0-4D2B-9470-78AB4A8203C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBB070B-EFC0-4D2B-9470-78AB4A8203C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBB070B-EFC0-4D2B-9470-78AB4A8203C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBB070B-EFC0-4D2B-9470-78AB4A8203C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
