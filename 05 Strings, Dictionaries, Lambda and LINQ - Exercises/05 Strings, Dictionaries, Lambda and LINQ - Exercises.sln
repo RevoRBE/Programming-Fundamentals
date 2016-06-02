@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Capitalization", "09 Cap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Palindrome Index", "10 Palindrome Index\10 Palindrome Index.csproj", "{857FD266-DB06-4481-9615-C9DEB435D25D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Common Strings", "11 Common Strings\11 Common Strings.csproj", "{095509CD-E08B-429A-ACB6-49DC898565DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{857FD266-DB06-4481-9615-C9DEB435D25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857FD266-DB06-4481-9615-C9DEB435D25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857FD266-DB06-4481-9615-C9DEB435D25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095509CD-E08B-429A-ACB6-49DC898565DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095509CD-E08B-429A-ACB6-49DC898565DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095509CD-E08B-429A-ACB6-49DC898565DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095509CD-E08B-429A-ACB6-49DC898565DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
