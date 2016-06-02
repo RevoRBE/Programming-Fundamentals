@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Reverse_String
 {
@@ -6,8 +7,7 @@ namespace Reverse_String
     {
         public static void Main()
         {
-            char[] text = Console.ReadLine().ToCharArray();
-            Array.Reverse(text);
+            char[] text = Console.ReadLine().ToCharArray().Reverse().ToArray();
             Console.WriteLine(text);
         }
     }
