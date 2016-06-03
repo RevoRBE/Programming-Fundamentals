@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Palindrome Index", "10 P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Common Strings", "11 Common Strings\11 Common Strings.csproj", "{095509CD-E08B-429A-ACB6-49DC898565DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Phonebook", "12 Phonebook\12 Phonebook.csproj", "{6BD63DF3-B7E7-4948-80F5-E0032F999CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Phonebook Upgrade", "13 Phonebook Upgrade\13 Phonebook Upgrade.csproj", "{67D086B3-A868-440B-BF2A-A390EAFD04E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{095509CD-E08B-429A-ACB6-49DC898565DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{095509CD-E08B-429A-ACB6-49DC898565DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095509CD-E08B-429A-ACB6-49DC898565DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD63DF3-B7E7-4948-80F5-E0032F999CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD63DF3-B7E7-4948-80F5-E0032F999CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD63DF3-B7E7-4948-80F5-E0032F999CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD63DF3-B7E7-4948-80F5-E0032F999CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D086B3-A868-440B-BF2A-A390EAFD04E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D086B3-A868-440B-BF2A-A390EAFD04E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D086B3-A868-440B-BF2A-A390EAFD04E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D086B3-A868-440B-BF2A-A390EAFD04E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
