@@ -9,7 +9,7 @@ namespace Average_Grades
     class Student
     {
         public string Name { get; set; }
-        public List<int> Grades { get; set; }
+        public List<double> Grades { get; set; }
         public double AverageGrade
         {
             get
@@ -32,6 +32,7 @@ namespace Average_Grades
                 double[] studentAverageGrades = studentGrades
                                                 .Where(x => x.Name == student && x.AverageGrade >= 5)
                                                 .Select(x => x.AverageGrade)
+                                                .OrderByDescending(x => x)
                                                 .ToArray();
                 foreach (double studentAverageGrade in studentAverageGrades)
                     Console.WriteLine("{0} -> {1:f2}", student, studentAverageGrade);
@@ -44,11 +45,11 @@ namespace Average_Grades
             Student[] grades = new Student[n];
             for (int i = 0; i < n; i++)
             {
-                List<int> studentGrades = new List<int>();
+                List<double> studentGrades = new List<double>();
                 string[] data = Console.ReadLine()
                                 .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
                 for (int j = 1; j < data.Length; j++)
-                    studentGrades.Add(int.Parse(data[j]));
+                    studentGrades.Add(double.Parse(data[j]));
                 grades[i] = new Student() { Name = data[0], Grades = studentGrades };
             }
             return grades;
