@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Rectangle Position", "06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Sales Report", "07 Sales Report\07 Sales Report.csproj", "{795D6111-7B1A-4F2B-93D3-CA8FA3877854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Count Working Days", "08 Count Working Days\08 Count Working Days.csproj", "{DA32139E-A629-4C68-B562-5D36CBDC0C44}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Sales Report 2", "07 Sales Report 2\07 Sales Report 2.csproj", "{ED2DFE79-7F17-4276-BC44-EB6F6AB84DF8}"
 EndProject
 Global
@@ -55,10 +53,6 @@ Global
 		{795D6111-7B1A-4F2B-93D3-CA8FA3877854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795D6111-7B1A-4F2B-93D3-CA8FA3877854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795D6111-7B1A-4F2B-93D3-CA8FA3877854}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA32139E-A629-4C68-B562-5D36CBDC0C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA32139E-A629-4C68-B562-5D36CBDC0C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA32139E-A629-4C68-B562-5D36CBDC0C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA32139E-A629-4C68-B562-5D36CBDC0C44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED2DFE79-7F17-4276-BC44-EB6F6AB84DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED2DFE79-7F17-4276-BC44-EB6F6AB84DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED2DFE79-7F17-4276-BC44-EB6F6AB84DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
