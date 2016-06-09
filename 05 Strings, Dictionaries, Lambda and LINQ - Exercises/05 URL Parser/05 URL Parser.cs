@@ -12,13 +12,18 @@ namespace URL_Parser
             string protocol = "";
             string server = "";
             string resource = "";
+            int startResourceParsing = 2;   // thanks to tihomirj
             if (url[0].Contains(":"))
             {
                 protocol = url[0].Replace(":", "");
                 server = url[1];
             }
-            else server = url[0];
-            for (int i = 2; i < url.Length; i++)
+            else
+            {
+                server = url[0];
+                startResourceParsing--;
+            }
+            for (int i = startResourceParsing; i < url.Length; i++)
                 resource = string.Join("/", resource, url[i]);
             if (resource.Length > 1)
                 resource = resource.Remove(0, 1);
