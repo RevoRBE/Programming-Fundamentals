@@ -83,8 +83,8 @@ class SoftUni_Coffee_Supplies
 
     private static void PrintOutOfCoffeeStats(Dictionary<string, long> coffeeTypeQuantities)
     {
-        foreach (var remainingCoffee in coffeeTypeQuantities.Where(x => x.Value == 0))  
-            Console.WriteLine("Out of {0}", remainingCoffee.Key);   // coffee type
+        foreach (var coffeeType in coffeeTypeQuantities.Where(x => x.Value == 0))  
+            Console.WriteLine("Out of {0}", coffeeType.Key);   // coffee type
     }
 
     private static string[] SplitInputBySeparator(string input, string separator)
