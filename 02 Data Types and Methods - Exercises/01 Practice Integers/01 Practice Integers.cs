@@ -1,30 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Numerics;
 
-namespace Practice_Integers
+class Program
 {
-    class Practice_Integers
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            sbyte num1 = -100;
-            byte num2 = 128;
-            short num3 = -3540;
-            ushort num4 = 64876;
-            uint num5 = 2147483648;
-            int num6 = -1141583228;
-            long num7 = -1223372036854775808;
-
-            Console.WriteLine(num1);
-            Console.WriteLine(num2);
-            Console.WriteLine(num3);
-            Console.WriteLine(num4);
-            Console.WriteLine(num5);
-            Console.WriteLine(num6);
-            Console.WriteLine(num7);
-        }
+        sbyte num1 = sbyte.Parse(Console.ReadLine());
+        byte num2 = byte.Parse(Console.ReadLine());
+        short num3 = short.Parse(Console.ReadLine());
+        ushort num4 = ushort.Parse(Console.ReadLine());
+        uint num5 = uint.Parse(Console.ReadLine());
+        int num6 = int.Parse(Console.ReadLine());
+        BigInteger num7 = BigInteger.Parse(Console.ReadLine());
+        Console.WriteLine($"{num1}\n{num2}\n{num3}\n{num4}\n{num5}\n{num6}\n{num7}");
     }
 }

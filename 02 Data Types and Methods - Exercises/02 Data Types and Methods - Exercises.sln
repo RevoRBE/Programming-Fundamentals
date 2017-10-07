@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Practice Integers", "01 Practice Integers\01 Practice Integers.csproj", "{C98103CC-E16A-47AC-9ACE-08281E9C92F4}"
 EndProject
@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Vowel or Digit", "13 Vow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Integer to Hex and Binary", "14 Integer to Hex and Binary\14 Integer to Hex and Binary.csproj", "{97A6948D-3A02-4BF3-98EB-9A1587E04C12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Comparing floats", "15 Comparing floats\15 Comparing floats.csproj", "{57C50F6E-59FB-4AC3-9C14-EC0F3F035075}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Comparing floats", "15 Comparing floats\16 Comparing floats.csproj", "{57C50F6E-59FB-4AC3-9C14-EC0F3F035075}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Print Part Of ASCII Table", "16 Print Part Of ASCII Table\16 Print Part Of ASCII Table.csproj", "{E3827614-8B2B-4E2F-989D-2101F20D5383}"
 EndProject
@@ -62,6 +62,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Fibonacci Numbers 2", "22 Fibonacci Numbers 2\22 Fibonacci Numbers 2.csproj", "{7EF087A6-D093-44ED-9FC8-4A3F1A78DB3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Fibonacci Numbers 3", "22 Fibonacci Numbers 3\22 Fibonacci Numbers 3.csproj", "{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Fast Prime Checker", "15 Fast Prime Checker\15 Fast Prime Checker.csproj", "{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,8 +191,15 @@ Global
 		{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70EAD0E6-CA67-49AE-85AA-8CBD78F54071}
 	EndGlobalSection
 EndGlobal

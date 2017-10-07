@@ -1,22 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Floating_Points
+class Program
 {
-    class Floating_Points
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            decimal num1 = 3.141592653589793238m;
-            double num2 = 1.60217657;
-            decimal num3 = 7.8184261974584555216535342341m;
-
-            Console.WriteLine(num1);
-            Console.WriteLine(num2);
-            Console.WriteLine(num3);
-        }
+        Decimal num1 = decimal.Parse(Console.ReadLine());
+        double num2 = double.Parse(Console.ReadLine());
+        Decimal num3 = decimal.Parse(Console.ReadLine());
+        Console.WriteLine($"{num1}\n{num2}\n{num3}");
     }
 }
