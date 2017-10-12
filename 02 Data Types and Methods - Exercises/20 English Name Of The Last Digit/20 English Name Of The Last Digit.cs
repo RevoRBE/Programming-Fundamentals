@@ -15,13 +15,11 @@ namespace English_Name_Of_The_Last_Digit
             Console.WriteLine(GetDigitName(digit));
         }
 
-        static string GetDigitName(int digit)
+        static string GetDigitName(int index)
         {
             string names = "zero,one,two,three,four,five,six,seven,eight,nine";
             string[] digitNames = names.Split(',').ToArray();
-            for (int i = 0; i < digitNames.Length; i++)
-                if (digit == i) return digitNames[i];
-            return string.Empty;
+            return digitNames[index];
         }
     }
 }

@@ -10,20 +10,16 @@ namespace Max_Method
     {
         static void Main(string[] args)
         {
-            int[] numbers = new int[3];
-            for (int i = 0; i < numbers.Length; i++)
-                numbers[i] = int.Parse(Console.ReadLine());
-
-            Console.WriteLine(GetMax(numbers));
+            int n1 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());
+            int n3 = int.Parse(Console.ReadLine());
+            Console.WriteLine(GetMax(GetMax(n1, n2),n3));
         }
 
-        static int GetMax(int[] numbers)
+        static int GetMax(int n1, int n2)
         {
-            int maxNumber = numbers[0];
-            for (int i = 1; i < numbers.Length; i++)
-                if (numbers[i] > maxNumber)
-                    maxNumber = numbers[i];
-            return maxNumber;
+            
+            return n1>n2?n1:n2;
         }
     }
 }

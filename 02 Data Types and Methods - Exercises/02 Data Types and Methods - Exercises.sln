@@ -33,13 +33,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Integer to Hex and Binar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Comparing floats", "15 Comparing floats\16 Comparing floats.csproj", "{57C50F6E-59FB-4AC3-9C14-EC0F3F035075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Print Part Of ASCII Table", "16 Print Part Of ASCII Table\16 Print Part Of ASCII Table.csproj", "{E3827614-8B2B-4E2F-989D-2101F20D5383}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Print Part Of ASCII Table", "16 Print Part Of ASCII Table\17 Print Part Of ASCII Table.csproj", "{E3827614-8B2B-4E2F-989D-2101F20D5383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Different Integers Size", "17 Different Integers Size\17 Different Integers Size.csproj", "{492F4FF1-2F47-4351-8FE5-E020A08AA0C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Different Integers Size", "17 Different Integers Size\18 Different Integers Size.csproj", "{492F4FF1-2F47-4351-8FE5-E020A08AA0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Different Integers Size 2", "17 Different Integers Size 2\17 Different Integers Size 2.csproj", "{3B4B4D8A-2028-4528-A0EC-B194B0AFA306}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Different Integers Size 2", "17 Different Integers Size 2\18 Different Integers Size 2.csproj", "{3B4B4D8A-2028-4528-A0EC-B194B0AFA306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Different Integers Size 3", "17 Different Integers Size 3\17 Different Integers Size 3.csproj", "{C63B11B0-1D97-4E95-950C-3F401B7E3FCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Different Integers Size 3", "17 Different Integers Size 3\18 Different Integers Size 3.csproj", "{C63B11B0-1D97-4E95-950C-3F401B7E3FCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Hello, Name!", "18 Hello, Name!\18 Hello, Name!.csproj", "{71CB7349-5307-44CC-8C01-8B8D014BD24E}"
 EndProject
@@ -55,15 +55,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23 Prime Checker", "23 Prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24 Primes in Given Range", "24 Primes in Given Range\24 Primes in Given Range.csproj", "{C72F0817-19B8-43D9-BE9B-53A1DF2744B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25 Master Numbers", "25 Master Numbers\25 Master Numbers.csproj", "{12862EFA-94EB-4F65-A3F4-DBC459B83FA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29 Master Numbers", "25 Master Numbers\29 Master Numbers.csproj", "{12862EFA-94EB-4F65-A3F4-DBC459B83FA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26 Factorial", "26 Factorial\26 Factorial.csproj", "{501D3E92-DFDE-4327-A6CA-66E90DA5F8B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30 Factorial", "26 Factorial\30 Factorial.csproj", "{501D3E92-DFDE-4327-A6CA-66E90DA5F8B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Fibonacci Numbers 2", "22 Fibonacci Numbers 2\22 Fibonacci Numbers 2.csproj", "{7EF087A6-D093-44ED-9FC8-4A3F1A78DB3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Fibonacci Numbers 3", "22 Fibonacci Numbers 3\22 Fibonacci Numbers 3.csproj", "{46365ACE-8E1D-4C5F-B42C-EA71405F6BD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Fast Prime Checker", "15 Fast Prime Checker\15 Fast Prime Checker.csproj", "{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 Thea the Photographer", "19 Thea the Photographer\19 Thea the Photographer.csproj", "{11297D31-2A49-4B05-B8EE-B58B77B2076E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25 CenterPoint", "25 CenterPoint\25 CenterPoint.csproj", "{1502BD45-2485-4A82-B662-385C682E52B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26 LongerLine", "26 LongerLine\26 LongerLine.csproj", "{5A34A1EB-AF5A-4D05-993A-5FC7751B4D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27 CubeProperties", "27 CubeProperties\27 CubeProperties.csproj", "{C78F3B7A-45A9-4641-ABF9-FB9E31B07680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28 GeometryCalculator", "28 GeometryCalculator\28 GeometryCalculator.csproj", "{EA519232-CA0B-4B0D-B807-05ECECCDD753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31 TrailingZeroesFactorial", "31 TrailingZeroesFactorial\31 TrailingZeroesFactorial.csproj", "{B1E8A449-BD89-40B9-82CC-3CF663088A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32 Substring", "32 Substring\32 Substring.csproj", "{D8AB92DA-C4D0-4807-ACA4-8019CBF8125C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +209,34 @@ Global
 		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB18BAC-CA82-4B4C-9702-B06FE54FA872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11297D31-2A49-4B05-B8EE-B58B77B2076E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11297D31-2A49-4B05-B8EE-B58B77B2076E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11297D31-2A49-4B05-B8EE-B58B77B2076E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11297D31-2A49-4B05-B8EE-B58B77B2076E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1502BD45-2485-4A82-B662-385C682E52B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1502BD45-2485-4A82-B662-385C682E52B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1502BD45-2485-4A82-B662-385C682E52B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1502BD45-2485-4A82-B662-385C682E52B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A34A1EB-AF5A-4D05-993A-5FC7751B4D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A34A1EB-AF5A-4D05-993A-5FC7751B4D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A34A1EB-AF5A-4D05-993A-5FC7751B4D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A34A1EB-AF5A-4D05-993A-5FC7751B4D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78F3B7A-45A9-4641-ABF9-FB9E31B07680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78F3B7A-45A9-4641-ABF9-FB9E31B07680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78F3B7A-45A9-4641-ABF9-FB9E31B07680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78F3B7A-45A9-4641-ABF9-FB9E31B07680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA519232-CA0B-4B0D-B807-05ECECCDD753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA519232-CA0B-4B0D-B807-05ECECCDD753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA519232-CA0B-4B0D-B807-05ECECCDD753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA519232-CA0B-4B0D-B807-05ECECCDD753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E8A449-BD89-40B9-82CC-3CF663088A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E8A449-BD89-40B9-82CC-3CF663088A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E8A449-BD89-40B9-82CC-3CF663088A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E8A449-BD89-40B9-82CC-3CF663088A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AB92DA-C4D0-4807-ACA4-8019CBF8125C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AB92DA-C4D0-4807-ACA4-8019CBF8125C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AB92DA-C4D0-4807-ACA4-8019CBF8125C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AB92DA-C4D0-4807-ACA4-8019CBF8125C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

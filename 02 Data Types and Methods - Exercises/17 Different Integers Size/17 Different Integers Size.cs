@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Different_Integers_Size
-{
     class Different_Integers_Size
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string number = Console.ReadLine();
             List<string> validDataTypes = new List<string>();
@@ -38,9 +33,8 @@ namespace Different_Integers_Size
             if (longResult != 0 || number == "0")   validDataTypes.Add("* long");
 
             if (validDataTypes.Count == 0)
-                Console.WriteLine("{0} can't be fitted anywhere", number);
+                Console.WriteLine("{0} can't fit in any type", number);
             else
-                Console.WriteLine("{0} can be fitted in:\n{1}", number, string.Join("\n", validDataTypes));
+                Console.WriteLine("{0} can fit in:\n{1}", number, string.Join("\n", validDataTypes));
         }
     }
-}
