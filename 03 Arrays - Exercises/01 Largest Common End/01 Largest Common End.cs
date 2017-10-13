@@ -9,7 +9,7 @@ namespace Largest_Common_End
     class Largest_Common_End
     {
         static void Main(string[] args)
-        {
+         {
             string[] array1 = Console.ReadLine()
                 .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             string[] array2 = Console.ReadLine()

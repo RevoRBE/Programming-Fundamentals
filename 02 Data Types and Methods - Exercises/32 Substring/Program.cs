@@ -7,16 +7,16 @@ public class Substring_broken
 		string text = Console.ReadLine();
 		int jump = int.Parse(Console.ReadLine());
 
-		const string Search = "p"; //dont know why char compare doesent work, will find out!
+        const char Search = 'p'; 
 		bool hasMatch = false;
 
 		for (int i = 0; i < text.Length; i++)
 		{
-            if (text[i].ToString() == Search)
+            if (text[i].Equals(Search)) //.Equals() method isted of "==" operand
 			{
 				hasMatch = true;
 
-				int length = jump+1 ; //not "endIndex" but "length" 
+				int length = jump+1 ; //not "endIndex" but "length" and +1
 
 				if (length > text.Length-i)
 				{
