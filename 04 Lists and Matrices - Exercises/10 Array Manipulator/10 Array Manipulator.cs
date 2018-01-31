@@ -68,10 +68,9 @@ namespace Array_Manipulator
                             List<int> sums = new List<int>();
                             for (int i = 0; i < numbers.Count; i += 2)
                             {
-                                if (i + 1 < numbers.Count)
-                                    sums.Add(numbers[i] + numbers[i + 1]);
-                                else
-                                    sums.Add(numbers[i]);
+                                var sum = numbers[i] + numbers[i + 1];
+                                numbers[i] = sum;
+                                numbers.Remove(i + 1);
                             }
                             numbers = sums;
                             break;
