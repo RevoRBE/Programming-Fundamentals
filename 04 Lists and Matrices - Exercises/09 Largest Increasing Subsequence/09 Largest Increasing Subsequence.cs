@@ -20,22 +20,22 @@ namespace Largest_Increasing_Subsequence
             int lastIndex = 0;
             // calculate the longest increasing sequence (LIS) parameters: 
             // LIS length, last index, prev elements indices
-            for (int currentIndex = 0; currentIndex < sequence.Length; currentIndex++)
+            for (int i = 0; i < sequence.Length; i++)
             {
-                len[currentIndex] = 1;
-                prev[currentIndex] = -1;
-                for (int prevIndex = 0; prevIndex < currentIndex; prevIndex++)
+                len[i] = 1;
+                prev[i] = -1;
+                for (int prevIndex = 0; prevIndex < i; prevIndex++)
                 {
-                    if (sequence[prevIndex] < sequence[currentIndex] &&
-                        len[prevIndex] >= len[currentIndex])
+                    if (sequence[prevIndex] < sequence[i] &&
+                        len[prevIndex] >= len[i])
                     {
-                        len[currentIndex]++;
-                        prev[currentIndex] = prevIndex;
+                        len[i]++;
+                        prev[i] = prevIndex;
                     }
-                    if (len[currentIndex] > maxLen)
+                    if (len[i] > maxLen)
                     {
-                        maxLen = len[currentIndex];
-                        lastIndex = currentIndex;
+                        maxLen = len[i];
+                        lastIndex = i;
                     }
                 }
             }
